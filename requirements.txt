@@ -1,0 +1,22 @@
+# Orchestration Framework - langchain stable version
+langchain==0.3.26
+
+# Web Development (FE & BE)
+flask==3.1.1
+
+# Open Source Embedding Model (in HuggingFace)
+sentence-transformers==4.1.0
+
+# PDF Loader
+pypdf==5.6.1
+
+# Manage ENV
+python-dotenv==1.1.0
+
+# Pinecone
+langchain-pinecone==0.2.8
+langchain-openai==0.3.24
+langchain-community==0.3.26
+
+# For setup.py file (For creating .egg-info folder (To Successfully setup, just like after running npm install node_modules folder comes))
+-e .
